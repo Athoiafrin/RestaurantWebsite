@@ -143,3 +143,18 @@ body
     border-radius: 18px;
     margin: 20px;
 }
+footer img
+{
+    padding-top: 10px;
+   min-width: 50px;
+   max-width: 50px;
+}
+footer {
+    padding: 22px;
+    color: white;
+    background-color: #962400;
+}
+.athoi{
+    text-align: right;
+    padding: 20px;
+}
