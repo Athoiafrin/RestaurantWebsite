@@ -7,7 +7,7 @@ nav{
 }
 ul{
     padding: 10px;
-    background-color: black;
+    background-color:#ffb162;
     color: white;
     display: flex;
     align-items: center;
@@ -15,12 +15,14 @@ ul{
     
 }
 li{
+   cursor: pointer;
    
     display: flex;
     
 }
 ul li{
     padding: 10px;
+    margin: 0 50px;
 }
 .brand img{
     
@@ -35,4 +37,23 @@ ul li{
     font-weight: bolder;
     padding: 0 20px;
     font-size: 30px;
+}
+.userpic{
+    margin-left: 50%;
+    height: 30px;
+    display: flex;
+
+    text-align: center;
+}
+.cover
+{
+    width: 100%;
+}
+.order
+{
+    text-align: center;
+}
+.cartsec
+{
+    display: flex;
 }
