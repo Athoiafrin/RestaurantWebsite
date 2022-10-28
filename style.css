@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: sticky;
+}
+ul{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+
+    
+}
+li{
+   
+    display: flex;
+    
+}
+ul li{
+    padding: 10px;
+}
+.brand img{
+    
+    height: 50px;
+    padding: 0 10px;
+
+}
+.brand{
+    
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    padding: 0 20px;
+    font-size: 30px;
+}
