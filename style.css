@@ -5,7 +5,13 @@
 nav{
     position: sticky;
 }
-ul{
+nav{
+    padding: 10px;
+    background-color:#ffb162;
+    color: white;
+    align-items: center;
+}
+.navul{
     padding: 10px;
     background-color:#ffb162;
     color: white;
@@ -13,6 +19,10 @@ ul{
     align-items: center;
 
     
+}
+.navdiv
+{
+    position: sticky;
 }
 li{
    cursor: pointer;
@@ -53,7 +63,51 @@ ul li{
 {
     text-align: center;
 }
+.cartsec ul{
+    justify-content: left;
+    text-align: center;
+    display: flex;
+    
+}
 .cartsec
 {
+    margin: 10%;
+    background-color: #962400;
+    text-align: center;
     display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 16px;
+    font-size: 30px;
+    
+}
+button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    max-height: 50px;
+}
+  
+button:hover {
+    background-color:#2b2b2b;
+    box-shadow: 0px 15px 20px rgba(7, 7, 7, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+button:active {
+    transform: translateY(-1px);
+}
+.cartsec img{
+    max-height: 150px;
+}
+h1{
+    text-align: center;
 }
