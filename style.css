@@ -111,3 +111,35 @@ button:active {
 h1{
     text-align: center;
 }
+body
+{
+    background-color: #ffecf5;
+}
+.cart{
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    justify-content: center;
+}
+.cart li{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.star{
+    
+    max-width: 300px;
+}
+.carttop{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.carttop ul{
+    border-radius: 18px;
+    margin: 20px;
+}
